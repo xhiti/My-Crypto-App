@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.baruckis.kriptofolio.vo.Status" />
+
+        <import type="com.baruckis.kriptofolio.vo.Resource" />
+
+        <variable
+            name="listResource"
+            type="Resource&lt;Object&gt;" />
+
+        <variable
+            name="retryCallback"
+            type="com.baruckis.kriptofolio.ui.common.RetryCallback" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".ui.addsearchlist.AddSearchActivity"
+        tools:showIn="@layout/activity_add_search">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/info_activity_add_search"
+            style="@style/AutoSizeText"
+            android:background="@color/colorForAddSearchListLastUpdatedBackground"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:padding="@dimen/add_search_list_item_last_updated_padding"
+            android:text="@string/string_info_last_updated_on_date_time"
+            android:textAlignment="center"
+            android:textColor="@color/colorForAddSearchListLastUpdatedText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:visibleGone="@{listResource.data != null}"
+            tools:text="@string/sample_text_info_last_updated_on_date_time" />
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefresh_activity_add_search"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/info_activity_add_search"
+            app:visibleGone="@{listResource.data != null}">
+
+            <ListView
+                android:id="@+id/listview_activity_add_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <include
+            layout="@layout/loading_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/add_search_list_item_inner_margin"
+            android:layout_marginTop="@dimen/add_search_list_item_inner_margin"
+            android:layout_marginEnd="@dimen/add_search_list_item_inner_margin"
+            android:layout_marginBottom="@dimen/add_search_list_item_inner_margin"
+            app:callback="@{() -> retryCallback.retry()}"
+            app:resource="@{listResource}" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

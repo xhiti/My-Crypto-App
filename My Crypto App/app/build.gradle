@@ -1,0 +1,102 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'com.google.android.gms.oss-licenses-plugin'
+
+android {
+    compileSdkVersion versions.compile_sdk
+
+    defaultConfig {
+        applicationId "com.baruckis.kriptofolio"
+        minSdkVersion versions.min_sdk
+        targetSdkVersion versions.target_sdk
+        versionCode 3
+        versionName "1.2.0" // major . minor . patch
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    flavorDimensions "version"
+    productFlavors {
+        demo {
+            applicationIdSuffix ".demo"
+            resValue "string", "app_id_suffix", ".demo"
+            buildConfigField 'boolean', 'IS_DEMO', 'true'
+        }
+        full {
+            resValue "string", "app_id_suffix", ""
+            buildConfigField 'boolean', 'IS_DEMO', 'false'
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.resValue "string", "versionName", variant.versionName }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+    implementation "androidx.core:core-ktx:$versions.ktx"
+    implementation "androidx.appcompat:appcompat:$versions.app_compat"
+    implementation "androidx.cardview:cardview:$versions.cardview"
+    implementation "androidx.preference:preference:$versions.preference"
+    implementation "androidx.recyclerview:recyclerview:$versions.recyclerview"
+    implementation "androidx.recyclerview:recyclerview-selection:$versions.recyclerview_selection"
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraint_layout"
+    implementation "com.google.android.material:material:$versions.design"
+    implementation "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
+    implementation "androidx.room:room-runtime:$versions.room"
+    kapt "androidx.room:room-compiler:$versions.room"
+    implementation "android.arch.navigation:navigation-fragment-ktx:$versions.navigation"
+    implementation "android.arch.navigation:navigation-ui-ktx:$versions.navigation"
+    implementation "androidx.browser:browser:$versions.browser"
+    implementation "com.google.dagger:dagger:$versions.dagger"
+    implementation "com.google.dagger:dagger-android:$versions.dagger"
+    implementation "com.google.dagger:dagger-android-support:$versions.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.dagger"
+    kapt "com.google.dagger:dagger-android-processor:$versions.dagger"
+    implementation("com.squareup.retrofit2:retrofit:$versions.retrofit") {
+        exclude module: 'okhttp'
+    }
+    implementation "com.squareup.okhttp3:okhttp:$versions.okhttp"
+    implementation "com.squareup.okhttp3:logging-interceptor:$versions.okhttp"
+    implementation "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+    implementation "com.github.bumptech.glide:glide:$versions.glide"
+    kapt "com.github.bumptech.glide:compiler:$versions.glide"
+    implementation "com.github.bumptech.glide:okhttp3-integration:$versions.glide" + "@aar"
+    implementation "eu.davidea:flipview:$versions.flip_view"
+    implementation "com.facebook.stetho:stetho:$versions.stetho"
+    implementation "com.google.android.gms:play-services-oss-licenses:$versions.oss_licenses"
+    androidTestImplementation "androidx.test:runner:$versions.runner"
+    androidTestImplementation "androidx.test:rules:$versions.rules"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espresso"
+    androidTestImplementation "androidx.room:room-testing:$versions.room"
+    testImplementation "junit:junit:$versions.junit"
+    testImplementation "org.mockito:mockito-all:$versions.mockito"
+    testImplementation "androidx.arch.core:core-testing:$versions.arch_core"
+}

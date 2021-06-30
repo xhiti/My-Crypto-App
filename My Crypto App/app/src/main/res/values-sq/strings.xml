@@ -1,0 +1,161 @@
+<!DOCTYPE resources [<!ENTITY usd "USD"><!ENTITY all "ALL"><!ENTITY dzd "DZD"><!ENTITY ars "ARS">
+    <!ENTITY amd "AMD"><!ENTITY aud "AUD"><!ENTITY azn "AZN"><!ENTITY bhd "BHD"><!ENTITY bdt "BDT">
+    <!ENTITY byn "BYN"><!ENTITY bmd "BMD"><!ENTITY bob "BOB"><!ENTITY bam "BAM"><!ENTITY brl "BRL">
+    <!ENTITY bgn "BGN"><!ENTITY khr "KHR"><!ENTITY cad "CAD"><!ENTITY cad "CAD"><!ENTITY clp "CLP">
+    <!ENTITY cny "CNY"><!ENTITY cop "COP"><!ENTITY crc "CRC"><!ENTITY hrk "HRK"><!ENTITY cup "CUP">
+    <!ENTITY czk "CZK"><!ENTITY dkk "DKK"><!ENTITY dop "DOP"><!ENTITY egp "EGP"><!ENTITY eur "EUR">
+    <!ENTITY gel "GEL"><!ENTITY ghs "GHS"><!ENTITY gtq "GTQ"><!ENTITY hnl "HNL"><!ENTITY hkd "HKD">
+    <!ENTITY huf "HUF"><!ENTITY isk "ISK"><!ENTITY inr "INR"><!ENTITY idr "IDR"><!ENTITY irr "IRR">
+    <!ENTITY iqd "IQD"><!ENTITY ils "ILS"><!ENTITY jmd "JMD"><!ENTITY jpy "JPY"><!ENTITY jod "JOD">
+    <!ENTITY kzt "KZT"><!ENTITY kes "KES"><!ENTITY kwd "KWD"><!ENTITY kgs "KGS"><!ENTITY lbp "LBP">
+    <!ENTITY mkd "MKD"><!ENTITY myr "MYR"><!ENTITY mur "MUR"><!ENTITY mxn "MXN"><!ENTITY mdl "MDL">
+    <!ENTITY mnt "MNT"><!ENTITY mad "MAD"><!ENTITY mmk "MMK"><!ENTITY nad "NAD"><!ENTITY npr "NPR">
+    <!ENTITY twd "TWD"><!ENTITY nzd "NZD"><!ENTITY nio "NIO"><!ENTITY ngn "NGN"><!ENTITY nok "NOK">
+    <!ENTITY omr "OMR"><!ENTITY pkr "PKR"><!ENTITY pab "PAB"><!ENTITY pen "PEN"><!ENTITY php "PHP">
+    <!ENTITY pln "PLN"><!ENTITY gbp "GBP"><!ENTITY qar "QAR"><!ENTITY ron "RON"><!ENTITY rub "RUB">
+    <!ENTITY sar "SAR"><!ENTITY rsd "RSD"><!ENTITY sgd "SGD"><!ENTITY zar "ZAR"><!ENTITY krw "KRW">
+    <!ENTITY ssp "SSP"><!ENTITY ves "VES"><!ENTITY lkr "LKR"><!ENTITY sek "SEK"><!ENTITY chf "CHF">
+    <!ENTITY thb "THB"><!ENTITY ttd "TTD"><!ENTITY tnd "TND"><!ENTITY try "TRY"><!ENTITY ugx "UGX">
+    <!ENTITY uah "UAH"><!ENTITY aed "AED"><!ENTITY uyu "UYU"><!ENTITY uzs "UZS"><!ENTITY vnd "VND">
+    ]>
+
+<resources>
+
+    <string name="action_settings">"Cilësimet"</string>
+
+    <string name="retry">"Për të përsëritur"</string>
+    <string name="unable_refresh">"Azhurnimi nuk është i mundur."</string>
+    <string name="unable_get_data">"Nuk mund të merren të dhëna. Ju lutemi shtypni butonin e riprovimit për të provuar përsëri."</string>
+    <string name="unknown_error">"Gabim i panjohur."</string>
+
+    <string name="undo">"Anullo"</string>
+    <string name="deleted">"Fshihet: %1$d"</string>
+
+    <string name="time_format_am">"AM"</string>
+    <string name="time_format_pm">"PM"</string>
+
+    <string name="no_application_handle">"Asnjë aplikacion nuk mund ta përpunojë këtë kërkesë."</string>
+    <string name="install_web_browser">"Bitte installieren Sie einen Webbrowser."</string>
+    <string name="install_email">"Ju lutemi instaloni një shfletues uebi."</string>
+
+    <string name="string_total_value_holdings">"Vlera totale e inventarit"</string>
+    <string name="string_total_value_on_date_time">" (%1$s UTC)"</string>
+    <string name="string_total_value_change_24h_label">"24 h "</string>
+
+    <string name="string_crypto_list_empty_primary">"Lista juaj e kripto-monedhave është bosh!"</string>
+    <string name="string_crypto_list_empty_secondary">"Shtoni kripto-monedhën tuaj duke përdorur butonin + më poshtë."</string>
+
+    <string name="string_column_coin_crypto_hold_amount_symbol">"kripto-monedha \ nsasia &#38; simboli"</string>
+    <string name="string_column_coin_fiat_price_amount">"Çmimi %1$s\nSasia %2$s"</string>
+    <string name="string_column_coin_change_24h_1h_7d">"± çmimi %% 1 h / 7 d\n± sasia %% 24 h\n± sasia %1$s 24 h"</string>
+
+    <string name="sample_text_column_coin_fiat_price_amount">"Çmimi $\nSasia $"</string>
+    <string name="sample_text_column_coin_change_24h_1h_7d">"± çmimi % 1 h / 7 d\n± çmimi % 24 h\n± sasia $ 24 h"</string>
+
+    <string name="sample_text_total_value_on_date_time">"Vlera totale e inventarit (11/03/2018 12:55:08 UTC)"</string>
+
+    <string name="action_mode_title">"Zgjedhur: %1$d"</string>
+    <string name="action_select_all">"Zgjidhni të gjitha"</string>
+    <string name="action_delete">"Qartë"</string>
+
+    <string name="activity_add_search_title">"Shto kripto-monedhë/a "</string>
+    <string name="activity_add_search_subtitle">"Të gjitha kripto-monedhat sipas renditjes"</string>
+
+    <string name="string_info_last_updated_on_date_time">"Përditësimi i fundit (%1$s UTC)"</string>
+    <string name="string_info_results_of_search">"Rezultatet %1$s"</string>
+
+    <string name="action_search">"Kërkimi"</string>
+
+    <string name="search_hint">"Kërkoni për një kripto-monedhë specifike …"</string>
+
+    <string name="sample_text_info_last_updated_on_date_time">"Përditësimi i fundit (11/03/2018 12:55:08 UTC)"</string>
+
+    <string name="dialog_cryptocurrency_amount_title">"Sa kripto-monedha %1$s keni ?"</string>
+    <string name="dialog_cryptocurrency_amount_hint">"Vendosni shumën"</string>
+    <string name="dialog_cryptocurrency_amount_confirm_button">"Në rregull"</string>
+    <string name="dialog_cryptocurrency_amount_cancel_button">"Anullo"</string>
+    <string name="dialog_cryptocurrency_amount_error">"Kërkohet numër i vlefshëm!"</string>
+
+    <string name="title_activity_settings">"Cilësimet"</string>
+
+    <string name="pref_general_category_title">"Gjeneral"</string>
+
+    <string name="pref_language_title">"Gjuha"</string>
+
+    <string name="pref_default_language_entry">"Anglisht"</string>
+    <string name="pref_default_language_value">"EN"</string>
+
+    <string name="pref_fiat_currency_title">"Monedha Fiat"</string>
+
+    <string name="pref_fiat_currency_key" translatable="false">"Monedha Fiat preferuar"</string>
+
+    <string name="pref_default_fiat_currency_entry">"&usd; - US-Dollar ($)"</string>
+    <string name="pref_default_fiat_currency_value">"&usd;"</string>
+
+    <string name="pref_date_format_title">"Formati i datës"</string>
+
+    <string name="pref_default_date_format_entry">"dd/MM/yyyy"</string>
+    <string name="pref_default_date_format_value">"dd/MM/yyyy"</string>
+
+    <string name="pref_24h_switch_title">"Përdorni formatin 24-orësh"</string>
+
+    <string name="pref_24h_switch_12h_summary">"01:00 PM"</string>
+
+    <string name="pref_support_category_title">"Mbështetje"</string>
+
+    <string name="pref_rate_app_title">"Vlerësoni aplikacionin në Google Play"</string>
+
+    <string name="pref_share_app_title">"Ndani me miqtë tuaj"</string>
+
+    <string name="share_app_message">"Unë ju sugjeroj këtë aplikacion falas të kriptovalutave Android: "</string>
+    <string name="share_app_chooser">"Ndaj me: "</string>
+
+
+    <string name="pref_donate_crypto_title">"Dhuroni me kripto"</string>
+    <string name="pref_donate_crypto_summary">"Paraqisni Bitcoin ose Etherium tuaj"</string>
+
+    <string name="dialog_donate_crypto_title">"Dhuroni me kripto"</string>
+    <string name="dialog_donate_crypto_message_first">"Dërgoni ndonjë sasi të Bitcoin ose Ethereum tek autori. Klikoni këtu për të kopjuar një adresë specifike të kriptomonedhës."</string>
+    <string name="dialog_donate_crypto_positive_button">"Adresa u kopjua"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_title">"Kopjoni adresën e Bitcoin"</string>
+    <string name="dialog_donate_crypto_ethereum_address_title">"Kopjoni adresën Ethereum"</string>
+
+    <string name="dialog_donate_crypto_message_second">"Dhurimi juaj jo vetëm që do të ndihmonte për të frymëzuar autorin të zhvillohej më tej, por gjithashtu do të mbulonte kostot e pajtimit për shërbimin e të dhënave API nëse është e nevojshme."</string>
+    <string name="dialog_donate_crypto_message_third">"Faleminderit! 😇"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_copy_confirmation">"Adresa Bitcoin u kopjua!"</string>
+    <string name="dialog_donate_crypto_ethereum_address_copy_confirmation">"Adresa e Ethereum-it u kopjua!"</string>
+
+    <string name="pref_buy_me_coffee_title">"Më bli një kafe"</string>
+
+    <string name="pref_contact_title">"Kontakt"</string>
+    <string name="pref_contact_summary">"A keni ndonjë koment? Dërgoni pyetjet, sugjerimet, raportet e gabimeve tuaja me email"</string>
+
+    <string name="pref_support_about_title">"Rreth"</string>
+
+    <string name="pref_website_title">"Faqe uebi"</string>
+
+    <string name="pref_author_title">"Autori Mexhit Kurti"</string>
+
+    <string name="pref_source_title">"Shikoni burimin në"</string>
+
+    <string name="pref_privacy_policy_title">"Politika e privatësisë"</string>
+
+    <string name="pref_third_party_software_title">"Softueri i palëve të treta"</string>
+
+    <string name="pref_license_title">"Liçensa"</string>
+    <string name="pref_license_summary">"Të drejtat e autorit "</string>
+
+    <string name="fragment_libraries_licenses_list_title">"Softueri i palëve të treta"</string>
+    <string name="fragment_libraries_licenses_list_subtitle">"Libraritë kryesore"</string>
+
+    <string name="action_more">"Më shumë"</string>
+
+    <string name="button_read_license">"Lexo licencën"</string>
+    <string name="button_project_link">"Linmku i projektit"</string>
+
+    <string name="fragment_license_title">"Licensa"</string>
+    <string name="activity_oss_licenses_menu_title">"Të gjitha licencat e librarive"</string>
+
+</resources>

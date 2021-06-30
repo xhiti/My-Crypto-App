@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.baruckis.kriptofolio.vo.Status" />
+
+        <import type="com.baruckis.kriptofolio.vo.Resource" />
+
+        <variable
+            name="myListResource"
+            type="Resource&lt;Object&gt;" />
+
+        <variable
+            name="myRetryCallback"
+            type="com.baruckis.kriptofolio.ui.common.RetryCallback" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator_add_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.addsearchlist.AddSearchActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="?android:attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:subtitle="@string/activity_add_search_subtitle"
+                app:title="@string/activity_add_search_title" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <include
+            layout="@layout/content_add_search"
+            app:listResource="@{myListResource}"
+            app:retryCallback="@{myRetryCallback}" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

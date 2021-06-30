@@ -1,0 +1,3 @@
+package com.baruckis.kriptofolio.dependencyinjection
+
+interface Injectable

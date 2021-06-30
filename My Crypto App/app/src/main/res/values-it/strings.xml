@@ -1,0 +1,155 @@
+<!DOCTYPE resources [<!ENTITY usd "USD"><!ENTITY all "ALL"><!ENTITY dzd "DZD"><!ENTITY ars "ARS">
+    <!ENTITY amd "AMD"><!ENTITY aud "AUD"><!ENTITY azn "AZN"><!ENTITY bhd "BHD"><!ENTITY bdt "BDT">
+    <!ENTITY byn "BYN"><!ENTITY bmd "BMD"><!ENTITY bob "BOB"><!ENTITY bam "BAM"><!ENTITY brl "BRL">
+    <!ENTITY bgn "BGN"><!ENTITY khr "KHR"><!ENTITY cad "CAD"><!ENTITY cad "CAD"><!ENTITY clp "CLP">
+    <!ENTITY cny "CNY"><!ENTITY cop "COP"><!ENTITY crc "CRC"><!ENTITY hrk "HRK"><!ENTITY cup "CUP">
+    <!ENTITY czk "CZK"><!ENTITY dkk "DKK"><!ENTITY dop "DOP"><!ENTITY egp "EGP"><!ENTITY eur "EUR">
+    <!ENTITY gel "GEL"><!ENTITY ghs "GHS"><!ENTITY gtq "GTQ"><!ENTITY hnl "HNL"><!ENTITY hkd "HKD">
+    <!ENTITY huf "HUF"><!ENTITY isk "ISK"><!ENTITY inr "INR"><!ENTITY idr "IDR"><!ENTITY irr "IRR">
+    <!ENTITY iqd "IQD"><!ENTITY ils "ILS"><!ENTITY jmd "JMD"><!ENTITY jpy "JPY"><!ENTITY jod "JOD">
+    <!ENTITY kzt "KZT"><!ENTITY kes "KES"><!ENTITY kwd "KWD"><!ENTITY kgs "KGS"><!ENTITY lbp "LBP">
+    <!ENTITY mkd "MKD"><!ENTITY myr "MYR"><!ENTITY mur "MUR"><!ENTITY mxn "MXN"><!ENTITY mdl "MDL">
+    <!ENTITY mnt "MNT"><!ENTITY mad "MAD"><!ENTITY mmk "MMK"><!ENTITY nad "NAD"><!ENTITY npr "NPR">
+    <!ENTITY twd "TWD"><!ENTITY nzd "NZD"><!ENTITY nio "NIO"><!ENTITY ngn "NGN"><!ENTITY nok "NOK">
+    <!ENTITY omr "OMR"><!ENTITY pkr "PKR"><!ENTITY pab "PAB"><!ENTITY pen "PEN"><!ENTITY php "PHP">
+    <!ENTITY pln "PLN"><!ENTITY gbp "GBP"><!ENTITY qar "QAR"><!ENTITY ron "RON"><!ENTITY rub "RUB">
+    <!ENTITY sar "SAR"><!ENTITY rsd "RSD"><!ENTITY sgd "SGD"><!ENTITY zar "ZAR"><!ENTITY krw "KRW">
+    <!ENTITY ssp "SSP"><!ENTITY ves "VES"><!ENTITY lkr "LKR"><!ENTITY sek "SEK"><!ENTITY chf "CHF">
+    <!ENTITY thb "THB"><!ENTITY ttd "TTD"><!ENTITY tnd "TND"><!ENTITY try "TRY"><!ENTITY ugx "UGX">
+    <!ENTITY uah "UAH"><!ENTITY aed "AED"><!ENTITY uyu "UYU"><!ENTITY uzs "UZS"><!ENTITY vnd "VND">
+    ]>
+
+<resources>
+
+    <string name="app_name" translatable="false">"Kriptofolio"</string>
+
+    <string name="app_subtitle_full" translatable="false">""</string>
+    <string name="app_subtitle_demo" translatable="false">"DEMO"</string>
+
+
+    <string name="action_settings">"Impostazioni"</string>
+
+    <string name="retry">"Riprova"</string>
+    <string name="unable_refresh">"Impossibile aggiornare."</string>
+    <string name="unable_get_data">"Impossibile ottenere i dati. Si prega di premere il pulsante Riprova per riprovare."</string>
+    <string name="unknown_error">"Errore sconosciuto."</string>
+
+    <string name="undo">"Disfare"</string>
+    <string name="deleted">"Eliminato: %1$d"</string>
+
+    <string name="time_format_am">"AM"</string>
+    <string name="time_format_pm">"PM"</string>
+
+    <string name="no_application_handle">"Nessuna applicazione può gestire questa richiesta."</string>
+    <string name="install_web_browser">"Si prega di installare un programma di navigazione in rete."</string>
+    <string name="install_email">"Installa un client di posta elettronica e contatta %s."</string>
+
+
+    <!-- Strings related to Main Activity -->
+
+    <string name="string_total_value_holdings">"Valore totale delle partecipazioni"</string>
+    <string name="string_total_value_on_date_time">" (%1$s UTC)"</string>
+    <string name="string_total_value_change_24h_label">"24 h "</string>
+
+    <string name="string_crypto_list_empty_primary">"La tua lista di criptovalute di proprietà è vuota!"</string>
+    <string name="string_crypto_list_empty_secondary">"Aggiungi la tua criptovaluta tramite il pulsante + in basso."</string>
+
+    <string name="string_column_coin_crypto_hold_amount_symbol">"Moneta cripto\nQuantità &#38; symbol"</string>
+    <string name="string_column_coin_fiat_price_amount">"Prezzo %1$s\nQuantità %2$s"</string>
+    <string name="string_column_coin_change_24h_1h_7d">"± prezzo %% 1 h / 7 d\n± prezzo %% 24 h\n± quantità %1$s 24 h"</string>
+
+    <string name="sample_text_column_coin_fiat_price_amount">"Prezzo $\nQuantità $"</string>
+    <string name="sample_text_column_coin_change_24h_1h_7d">"± prezzo % 1 h / 7 d\n± prezzo % 24 h\n± quantità $ 24 h"</string>
+
+    <string name="sample_text_total_value_on_date_time">"Valore totale delle partecipazioni (11/03/2018 12:55:08 UTC)"</string>
+    <string name="sample_text_total_value_change_24h" translatable="false">" $ +1538.00 "</string>
+
+
+    <string name="action_mode_title">"Selected: %1$d"</string>
+    <string name="action_select_all">"Select all"</string>
+    <string name="action_delete">"Delete"</string>
+
+
+    <!-- Strings related to Add Search Activity -->
+
+    <string name="activity_add_search_title">"Aggiungi monete crittografiche"</string>
+    <string name="activity_add_search_subtitle">"Tutte le criptovalute classificate"</string>
+
+    <string name="string_info_last_updated_on_date_time">"Ultimo aggiornamento (%1$s UTC)"</string>
+    <string name="string_info_results_of_search">"Risultati %1$s"</string>
+
+    <string name="action_search">"Search"</string>
+
+    <string name="search_hint">"Cerca una moneta specifica…"</string>
+
+    <string name="sample_text_info_last_updated_on_date_time">"Ultimo aggiornamento (11/03/2018 12:55:08 UTC)"</string>
+    <string name="sample_text_item_code" translatable="false">"BITSILVER"</string>
+
+    <string name="dialog_cryptocurrency_amount_title">"Quante %1$s monete hai?"</string>
+    <string name="dialog_cryptocurrency_amount_hint">"Inserire l'importo"</string>
+    <string name="dialog_cryptocurrency_amount_confirm_button">"OK"</string>
+    <string name="dialog_cryptocurrency_amount_cancel_button">"Annulla"</string>
+    <string name="dialog_cryptocurrency_amount_error">"È richiesto un numero valido!"</string>
+
+
+    <!-- Strings related to Settings Activity -->
+
+    <string name="title_activity_settings">"Impostazioni"</string>
+
+    <string name="pref_general_category_title">"Generale"</string>
+
+    <string name="pref_language_title">"Linguaggio"</string>
+
+    <string name="pref_default_language_entry">"English"</string>
+    <string name="pref_default_language_value">"EN"</string>
+
+    <string name="pref_fiat_currency_title">"Valuta Fiat"</string>
+
+    <string name="pref_default_fiat_currency_entry">"&usd; - United States Dollar ($)"</string>
+    <string name="pref_default_fiat_currency_value">"&usd;"</string>
+
+    <string name="pref_date_format_title">"Formato data"</string>
+
+
+    <string name="pref_default_date_format_entry">"dd/MM/yyyy"</string>
+    <string name="pref_default_date_format_value">"dd/MM/yyyy"</string>
+
+    <string name="pref_24h_switch_title">"Usa il formato 24 ore"</string>
+
+    <string name="pref_24h_switch_key" translatable="false">"preference 24h switch"</string>
+
+    <string name="pref_24h_switch_24h_summary" translatable="false">"13:00"</string>
+    <string name="pref_24h_switch_12h_summary">"01:00 PM"</string>
+
+
+    <string name="pref_support_category_title">"Supporto"</string>
+
+    <string name="pref_rate_app_title">"Valuta l'app in Google Play"</string>
+    <string name="pref_rate_app_key" translatable="false">"rate app"</string>
+
+
+    <string name="pref_share_app_title">"Condividi con i tuoi amici"</string>
+    <string name="pref_share_app_key" translatable="false">"share app"</string>
+
+    <string name="share_app_message">"Ti suggerisco questa app gratuita per portafoglio di criptovalute Android per te: "</string>
+    <string name="share_app_chooser">"Condividi con: "</string>
+
+    <string name="pref_donate_crypto_title">"Dona con crypto"</string>
+    <string name="pref_donate_crypto_summary">"Invia il tuo Bitcoin o Ethereum"</string>
+
+    <string name="dialog_donate_crypto_title">"Dona con cryptoo"</string>
+    <string name="dialog_donate_crypto_message_first">"Invia qualsiasi quantità di Bitcoin o Ethereum all'autore. Fare clic per copiare un particolare indirizzo di criptovaluta."</string>
+    <string name="dialog_donate_crypto_positive_button">"Fatto"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_title">"Copia l'indirizzo Bitcoin"</string>
+
+    <string name="dialog_donate_crypto_ethereum_address_title">"Copia l'indirizzo Ethereum"</string>
+
+    <string name="dialog_donate_crypto_message_second">"Qualsiasi tua donazione aiuterebbe non solo a ispirare l'autore a continuare lo sviluppo, ma anche a coprire i costi di abbonamento al servizio dati API in caso di necessità."</string>
+    <string name="dialog_donate_crypto_message_third">"Grazie! 😇"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_copy_confirmation">"Indirizzo Bitcoin copiato!!"</string>
+    <string name="dialog_donate_crypto_ethereum_address_copy_confirmation">"Indirizzo Ethereum copiato!"</string>
+
+
+</resources>

@@ -1,0 +1,279 @@
+<!DOCTYPE resources [<!ENTITY usd "USD"><!ENTITY all "ALL"><!ENTITY dzd "DZD"><!ENTITY ars "ARS">
+    <!ENTITY amd "AMD"><!ENTITY aud "AUD"><!ENTITY azn "AZN"><!ENTITY bhd "BHD"><!ENTITY bdt "BDT">
+    <!ENTITY byn "BYN"><!ENTITY bmd "BMD"><!ENTITY bob "BOB"><!ENTITY bam "BAM"><!ENTITY brl "BRL">
+    <!ENTITY bgn "BGN"><!ENTITY khr "KHR"><!ENTITY cad "CAD"><!ENTITY cad "CAD"><!ENTITY clp "CLP">
+    <!ENTITY cny "CNY"><!ENTITY cop "COP"><!ENTITY crc "CRC"><!ENTITY hrk "HRK"><!ENTITY cup "CUP">
+    <!ENTITY czk "CZK"><!ENTITY dkk "DKK"><!ENTITY dop "DOP"><!ENTITY egp "EGP"><!ENTITY eur "EUR">
+    <!ENTITY gel "GEL"><!ENTITY ghs "GHS"><!ENTITY gtq "GTQ"><!ENTITY hnl "HNL"><!ENTITY hkd "HKD">
+    <!ENTITY huf "HUF"><!ENTITY isk "ISK"><!ENTITY inr "INR"><!ENTITY idr "IDR"><!ENTITY irr "IRR">
+    <!ENTITY iqd "IQD"><!ENTITY ils "ILS"><!ENTITY jmd "JMD"><!ENTITY jpy "JPY"><!ENTITY jod "JOD">
+    <!ENTITY kzt "KZT"><!ENTITY kes "KES"><!ENTITY kwd "KWD"><!ENTITY kgs "KGS"><!ENTITY lbp "LBP">
+    <!ENTITY mkd "MKD"><!ENTITY myr "MYR"><!ENTITY mur "MUR"><!ENTITY mxn "MXN"><!ENTITY mdl "MDL">
+    <!ENTITY mnt "MNT"><!ENTITY mad "MAD"><!ENTITY mmk "MMK"><!ENTITY nad "NAD"><!ENTITY npr "NPR">
+    <!ENTITY twd "TWD"><!ENTITY nzd "NZD"><!ENTITY nio "NIO"><!ENTITY ngn "NGN"><!ENTITY nok "NOK">
+    <!ENTITY omr "OMR"><!ENTITY pkr "PKR"><!ENTITY pab "PAB"><!ENTITY pen "PEN"><!ENTITY php "PHP">
+    <!ENTITY pln "PLN"><!ENTITY gbp "GBP"><!ENTITY qar "QAR"><!ENTITY ron "RON"><!ENTITY rub "RUB">
+    <!ENTITY sar "SAR"><!ENTITY rsd "RSD"><!ENTITY sgd "SGD"><!ENTITY zar "ZAR"><!ENTITY krw "KRW">
+    <!ENTITY ssp "SSP"><!ENTITY ves "VES"><!ENTITY lkr "LKR"><!ENTITY sek "SEK"><!ENTITY chf "CHF">
+    <!ENTITY thb "THB"><!ENTITY ttd "TTD"><!ENTITY tnd "TND"><!ENTITY try "TRY"><!ENTITY ugx "UGX">
+    <!ENTITY uah "UAH"><!ENTITY aed "AED"><!ENTITY uyu "UYU"><!ENTITY uzs "UZS"><!ENTITY vnd "VND">
+    ]>
+
+<resources>
+
+    <string name="action_settings">"Настройки"</string>
+
+    <string name="retry">"Повторить"</string>
+    <string name="unable_refresh">"Не удалось обновить"</string>
+    <string name="unable_get_data">"Невозможно получить данные. Пожалуйста, нажмите кнопку повтора, чтобы повторить попытку."</string>
+    <string name="unknown_error">"Неизвестная ошибка"</string>
+
+    <string name="undo">"Отменить"</string>
+    <string name="deleted">"Удалено:% 1 $ d"</string>
+
+    <string name="time_format_am">"AM"</string>
+    <string name="time_format_pm">"PM"</string>
+
+    <string name="no_application_handle">"Ни одно приложение не может обработать этот запрос."</string>
+    <string name="install_web_browser">"Пожалуйста, установите веб-браузер."</string>
+    <string name="install_email">"Установите почтовый клиент и свяжитесь с% s."</string>
+
+
+    <!-- Strings - Main Activity -->
+    <string name="string_total_value_holdings">"Общая стоимость холдингов"</string>
+    <string name="string_total_value_on_date_time">" (%1$s UTC)"</string>
+    <string name="string_total_value_change_24h_label">"24 val "</string>
+
+    <string name="string_crypto_list_empty_primary">"Список ваших собственных криптовалют пуст!"</string>
+    <string name="string_crypto_list_empty_secondary">"Добавьте свою криптовалюту с помощью кнопки + ниже."</string>
+
+    <string name="string_column_coin_crypto_hold_amount_symbol">"Крипто-монета \ nAmount &#38;; символ"</string>
+    <string name="string_column_coin_fiat_price_amount">"Цена %1$s\ nСумма %2$s"</string>
+    <string name="string_column_coin_change_24h_1h_7d">"± Цена %% 1 val / 7 d\n± Цена %% 24 val\n± nСумма %1$s 24 val"</string>
+
+    <string name="sample_text_column_coin_fiat_price_amount">"Цена $\nnСумма $"</string>
+    <string name="sample_text_column_coin_change_24h_1h_7d">"± Цена % 1 val / 7 d\n± Цена % 24 val\n± nСумма $ 24 val"</string>
+
+    <string name="sample_text_total_value_on_date_time">"Общая стоимость авуаров (11.03.2018 12:55:08 UTC)"</string>
+
+    <string name="action_mode_title">"Выбрано: %1$d"</string>
+    <string name="action_select_all">"Выбрать все"</string>
+    <string name="action_delete">"Удалить"</string>
+
+
+    <!-- Strings - Add Search Activity -->
+    <string name="activity_add_search_title">"Добавить криптовалюту (-и)"</string>
+    <string name="activity_add_search_subtitle">"Все криптовалюты по рейтингу"</string>
+
+    <string name="string_info_last_updated_on_date_time">"Последнее обновление (%1$s UTC)"</string>
+    <string name="string_info_results_of_search">"Полученные результаты %1$s"</string>
+
+    <string name="action_search">"Поиск"</string>
+
+    <string name="search_hint">"Искать конкретную монету…"</string>
+
+    <string name="sample_text_info_last_updated_on_date_time">"Последнее обновление (11/03/2018 12:55:08 UTC)"</string>
+
+    <string name="dialog_cryptocurrency_amount_title">"Сколько у вас монет %1$ s?"</string>
+    <string name="dialog_cryptocurrency_amount_hint">"Вносить количество"</string>
+    <string name="dialog_cryptocurrency_amount_confirm_button">"OK"</string>
+    <string name="dialog_cryptocurrency_amount_cancel_button">"Отмена"</string>
+    <string name="dialog_cryptocurrency_amount_error">"Требуется действующий номер!"</string>
+
+
+    <!-- Strings - Settings Activity -->
+    <string name="title_activity_settings">"Настройки"</string>
+
+    <string name="pref_general_category_title">"Общий"</string>
+
+    <string name="pref_language_title">"Язык"</string>
+
+    <string name="pref_default_language_entry">"English"</string>
+    <string name="pref_default_language_value">"EN"</string>
+
+    <string name="pref_fiat_currency_title">"Фиатная валюта"</string>
+
+    <string name="pref_default_fiat_currency_entry">" &rub; - Russian Ruble (₽)"</string>
+    <string name="pref_default_fiat_currency_value">"RUB"</string>
+
+    <string-array name="pref_fiat_currency_list_entries">
+        <item>"USD - JAV doleris ($)"</item>
+        <item>"ALL - Albanijos lekas (L)"</item>
+        <item>"DZD - Alžyro dinaras (د.ج)"</item>
+        <item>"ARS - Argentinos pesas ($)"</item>
+        <item>"AMD - Armėnijos dramas (֏)"</item>
+        <item>"AUD - Australijos doleris ($)"</item>
+        <item>"AZN - Azerbaidžano manatas (₼)"</item>
+        <item>"BHD - Bahreino dinaras (.د.ب)"</item>
+        <item>"BDT - Bangladešo taka (৳)"</item>
+        <item>"BYN - Baltarusijos rublis (Br)"</item>
+        <item>"BMD - Bermudos doleris ($)"</item>
+        <item>"BOB - Bolivijos Bolivianas (Bs.)"</item>
+        <item>"BAM - Bosnijos-Hercegovinos konvertuojamoji markė (KM)"</item>
+        <item>"BRL - Brazilijos realas (R$)"</item>
+        <item>"BGN - Bulgarijos levas (лв)"</item>
+        <item>"KHR - Kambodžos rielis (៛)"</item>
+        <item>"CAD - Kanados doleris ($)"</item>
+        <item>"CLP - Čilės pesas ($)"</item>
+        <item>"CNY - Kinijos juanis (¥)"</item>
+        <item>"COP - Kolumbijos pesas ($)"</item>
+        <item>"CRC - Kosta Rikos kolonas (₡)"</item>
+        <item>"HRK - Kroatijos kuna (kn)"</item>
+        <item>"CUP - Kubos pesas ($)"</item>
+        <item>"CZK - Čekijos krona (Kč)"</item>
+        <item>"DKK - Danijos krona (kr)"</item>
+        <item>"DOP - Dominikos pesas ($)"</item>
+        <item>"EGP - Egipto svaras (£)"</item>
+        <item>"EUR - Euras (€)"</item>
+        <item>"GEL - Gruzijos laris (₾)"</item>
+        <item>"GHS - Ganos sedis (₵)"</item>
+        <item>"GTQ - Gvatemalos kvetzalas (Q)"</item>
+        <item>"HNL - Hondūro lempira (L)"</item>
+        <item>"HKD - Honkongo doleris ($)"</item>
+        <item>"HUF - Vengrijos forintas (Ft)"</item>
+        <item>"ISK - Islandijos krona (kr)"</item>
+        <item>"INR - Indijos rupija (₹)"</item>
+        <item>"IDR - Indonezijos rupija (Rp)"</item>
+        <item>"IRR - Irano rialas (﷼)"</item>
+        <item>"IQD - Irako dinaras (ع.د)"</item>
+        <item>"ILS - Izraelio naujasis šekelis (₪)"</item>
+        <item>"JMD - Jamaikos doleris ($)"</item>
+        <item>"JPY - Japonijos jena (¥)"</item>
+        <item>"JOD - Jordanijos dinaras (د.ا)"</item>
+        <item>"KZT - Kazachstano tengė (₸)"</item>
+        <item>"KES - Kenijos šilingas (Sh)"</item>
+        <item>"KWD - Kuveito dinaras (د.ك)"</item>
+        <item>"KGS - Kirgizijos Somas (с)"</item>
+        <item>"LBP - Libano svaras (ل.ل)"</item>
+        <item>"MKD - Makedonijos denaras (ден)"</item>
+        <item>"MYR - Malaizijos ringitas (RM)"</item>
+        <item>"MUR - Mauricijaus rupija (₨)"</item>
+        <item>"MXN - Meksikos pesas ($)"</item>
+        <item>"MDL - Moldavijos lėja (L)"</item>
+        <item>"MNT - Mongolijos tugrikas (₮)"</item>
+        <item>"MAD - Maroko dirhamas (د.م.)"</item>
+        <item>"MMK - Mianmaro Kijatas (Ks)"</item>
+        <item>"NAD - Namibijos doleris ($)"</item>
+        <item>"NPR - Nepalo rupija (₨)"</item>
+        <item>"TWD - Naujasis Taivano doleris ($)"</item>
+        <item>"NZD - Naujosios Zelandijos doleris ($)"</item>
+        <item>"NIO - Nikaragvos kordoba (C$)"</item>
+        <item>"NGN - Nigerijos naira (₦)"</item>
+        <item>"NOK - Norvegijos krona (kr)"</item>
+        <item>"OMR - Omano rialas (ر.ع.)"</item>
+        <item>"PKR - Pakistano rupija (₨)"</item>
+        <item>"PAB - Panamos balboa (B/.)"</item>
+        <item>"PEN - Peru solis (S/.)"</item>
+        <item>"PHP - Filipinų pesas (₱)"</item>
+        <item>"PLN - Lenkijos zlotas (zł)"</item>
+        <item>"GBP - Didžiosios Britanijos svaras sterlingų (£)"</item>
+        <item>"QAR - Kataro rialas (ر.ق)"</item>
+        <item>"RON - Rumunijos lėja (lei)"</item>
+        <item>"RUB - Rusijos rublis (₽)"</item>
+        <item>"SAR - Saudo Arabijos rialas (ر.س)"</item>
+        <item>"RSD - Serbijos dinaras (дин.)"</item>
+        <item>"SGD - Singapūro doleris ($)"</item>
+        <item>"ZAR - Pietų Afrikos randas (Rs)"</item>
+        <item>"KRW - Pietų Korėjos vonas (₩)"</item>
+        <item>"SSP - Pietų Sudano svaras (£)"</item>
+        <item>"VES - Nepriklausomas bolivaras (Bs.)"</item>
+        <item>"LKR - Šri Lankos rupija (Rs)"</item>
+        <item>"SEK - Švedijos krona ( kr)"</item>
+        <item>"CHF - Šveicarijos frankas (Fr)"</item>
+        <item>"THB - Tailando batas (฿)"</item>
+        <item>"TTD - Trinidado ir Tobago doleris ($)"</item>
+        <item>"TND - Tuniso dinaras (د.ت)"</item>
+        <item>"TRY - Turkijos lira (₺)"</item>
+        <item>"UGX - Ugandos šilingas (Sh)"</item>
+        <item>"UAH - Ukrainos grivina (₴)"</item>
+        <item>"AED - Jungtinių Arabų Emyratų dirhamas (د.إ)"</item>
+        <item>"UYU - Urugvajaus pesas ($)"</item>
+        <item>"UZS - Uzbekijos sumas (so'm)"</item>
+        <item>"VND - Vietnamo dongas (₫)"</item>
+    </string-array>
+
+    <string name="pref_date_format_title">"Формат даты"</string>
+
+    <string name="pref_default_date_format_entry">"yyyy-MM-dd"</string>
+    <string name="pref_default_date_format_value">"yyyy-MM-dd"</string>
+
+    <string name="pref_24h_switch_title">"Используйте 24-часовой формат"</string>
+
+    <string name="pref_24h_switch_12h_summary">"01:00 PM"</string>
+
+
+    <string name="pref_support_category_title">"Служба поддержки"</string>
+
+    <string name="pref_rate_app_title">"Оценить приложение в Google Play"</string>
+
+
+    <string name="pref_share_app_title">"Поделиться с друзьями"</string>
+
+    <string name="share_app_message">"Я предлагаю вам это бесплатное приложение для Android с портфолио криптовалют: "</string>
+    <string name="share_app_chooser">"Поделиться с: "</string>
+
+
+    <string name="pref_donate_crypto_title">"Сделайте пожертвование криптовалютой"</string>
+    <string name="pref_donate_crypto_summary">"Отправьте свой биткойн или Ethereum"</string>
+
+    <string name="dialog_donate_crypto_title">"Сделайте пожертвование криптовалютой"</string>
+    <string name="dialog_donate_crypto_message_first">"Отправьте автору любое количество биткойнов или Ethereum. Нажмите, чтобы скопировать конкретный адрес криптовалюты."</string>
+    <string name="dialog_donate_crypto_positive_button">"Понятно"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_title">"Копировать биткойн-адрес"</string>
+    <string name="dialog_donate_crypto_ethereum_address_title">"Копировать Ethereum-адрес"</string>
+
+    <string name="dialog_donate_crypto_message_second">"Любое ваше пожертвование поможет не только вдохновить автора на продолжение разработки, но и покрыть расходы на подписку на сервис данных API, если возникнет такая необходимость."</string>
+    <string name="dialog_donate_crypto_message_third">"Спасибо! 😇"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_copy_confirmation">"Биткойн-адрес скопирован!"</string>
+    <string name="dialog_donate_crypto_ethereum_address_copy_confirmation">"Адрес Ethereum скопирован!"</string>
+
+
+    <string name="pref_buy_me_coffee_title">"Купи мне кофе"</string>
+
+
+    <string name="pref_contact_title">"Контакт"</string>
+    <string name="pref_contact_summary">"Есть отзывы? Отправьте по электронной почте свои вопросы, предложения, отчеты об ошибках"</string>
+
+
+    <string name="pref_support_about_title">"о"</string>
+
+    <string name="pref_website_title">"Веб-сайт"</string>
+
+    <string name="pref_author_title">"Автор Андрюс Барукис"</string>
+
+    <string name="pref_source_title">"Посмотреть исходный код на"</string>
+
+    <string name="pref_privacy_policy_title">"Политика конфиденциальности"</string>
+
+    <string name="pref_third_party_software_title">"Стороннее программное обеспечение"</string>
+    <string name="pref_third_party_software_summary">"Бесплатно &#38; лицензии с открытым исходным кодом"</string>
+
+    <string name="pref_license_title">"Лицензия"</string>
+    <string name="pref_license_summary">"Авторские права"</string>
+
+
+    <!-- Strings - Libraries Licenses Fragment -->
+    <string name="fragment_libraries_licenses_list_title">"Стороннее программное обеспечение"</string>
+    <string name="fragment_libraries_licenses_list_subtitle">"Основные библиотеки"</string>
+
+    <string name="action_more">"Более"</string>
+
+    <string name="button_read_license">"Прочитать лицензию"</string>
+    <string name="button_project_link">"Ссылка на проект"</string>
+
+    <string name="library_license_name_glide">"BSD, часть MIT и Apache 2.0"</string>
+
+    <string name="library_license_name_glide_okhttp">@string/library_license_name_glide</string>
+
+    <string name="library_developer_junit">"Эрих Гамма, Кент Бек &#38; Команда JUnit"</string>
+
+
+    <!-- Strings - License Fragment -->
+    <string name="fragment_license_title">"Лицензия"</string>
+
+    <!-- Strings - Menu Activity -->
+    <string name="activity_oss_licenses_menu_title">"Все библиотеки лицензий"</string>
+
+</resources>
